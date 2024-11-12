@@ -74,13 +74,10 @@ acceptance criteria*
 
 Q1 Answer:
 
-1.The application may not always return UK time if the user is not in the UK. The variable ukDateTime, in the solution, was implemented using DateTime.Now, which captures the system’s local time. This approach assumes the local machine is set to UK time, which may not always be the case.
-
-2. The application does not successfully display the difference in time between UK and Canada, running the application returns zero as the timespan difference between Canada and UK.
-
-3.The code successfully meets the requirement to display the date in the specified format (dddd dd MMMM yyyy HH:mm:ss). 
+*1. The application may not always return UK time if the user is not in the UK. The variable ukDateTime, in the solution, was implemented using DateTime.Now, which captures the system’s local time. This approach assumes the local machine is set to UK time, which may not always be the case.
+*2. The application does not successfully display the difference in time between UK and Canada, running the application returns zero as the timespan difference between Canada and UK.
+*3.The code successfully meets the requirement to display the date in the specified format (dddd dd MMMM yyyy HH:mm:ss). 
  
-
 Q2. Refactor the code to be more testable.
  
 Q2 Answer: 
